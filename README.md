@@ -1,5 +1,7 @@
 # NOTIFY
-Simple (6.5kb code) and pretty JavaScript alert notifier. Replace standart alert window. 
+Simple and pretty JavaScript alert notifier. Replace standart alert window. 
+
+6.5 kb full version, 3.5 kb minified version.
 
 Version: 0.0.1.
 
