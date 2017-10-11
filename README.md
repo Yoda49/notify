@@ -24,7 +24,7 @@ notify.show
 **notify.show(options)**
 
 Options are object with next options:
-1. delay - delay in ms. before the notify window is shown.
+1. delay - delay in ms. before the notify window is shown. Default is 0 ms.
 2. showCancelButton - true or false (default).
 3. showConfirmButton - true (default) or false.
 4. showUserFnButton - true or false (default).
@@ -36,9 +36,9 @@ Options are object with next options:
 10. confirmButtonText - Text for confirm button. Default is "OK".
 11. cancelButtonText  - Text for cancel button. Default is "ОТМЕНА".
 12. userButtonText - Text for user button. Default is "".
-13. confirmFunction - This function will run after click on confirm button.
-14. cancelFunction  - This function will run after click on confirm button.
-15. userFunction - This function will run after click on confirm button.
+13. confirmFunction - This function will run after click on confirm button. Accepts input value if it exist (function (inputValue){}).
+14. cancelFunction  - This function will run after click on confirm button. Accepts input value if it exist (function (inputValue){}).
+15. userFunction - This function will run after click on confirm button. Accepts input value if it exist (function (inputValue){}).
 16. closeOnConfirm - true (default) or false. Use this option for ajax or other request, when you need delay. Next notify window will replace this window.
 
 **notify.close()**
