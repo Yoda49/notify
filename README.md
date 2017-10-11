@@ -15,6 +15,8 @@ notify.show
 });
 ```
 
+# API
+
 **notify.show(options)**
 
 Options are object with next options:
