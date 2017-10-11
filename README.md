@@ -1,7 +1,8 @@
-# notify
+# NOTIFY
 Simple and pretty JavaScript alert notifier. Replace standart alert window.
 
 Version: 0.0.1
+Dependencies: jquery.
 
 **How to begin:**
 
@@ -15,7 +16,7 @@ notify.show
 });
 ```
 
-# API
+## API
 
 **notify.show(options)**
 
