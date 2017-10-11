@@ -27,8 +27,8 @@ Options are object with next options:
 3. showConfirmButton - true (default) or false.
 4. showUserFnButton - true or false (default).
 5. type - "error", "warning", "confirm", "notify" (default).
-6. title - true (default) of false.
-7. body - true (default) or false.
+6. title - title (header) for notify window.
+7. body - notify message text.
 8. input - show or hide (default) input field on notify window. Input value is transferred to buttons functions.
 9. inputPlaceholder - placeholder for input field.
 10. confirmButtonText - Text for confirm button. Default is "OK".
